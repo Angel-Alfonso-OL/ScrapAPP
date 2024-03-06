@@ -4,6 +4,7 @@ package scrapapp.view;
 import javax.swing.JFrame;
 import java.awt.Toolkit;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
+import scrapapp.view.panels.mainPanel;
 
 
 
@@ -20,6 +21,6 @@ public class frameMain extends JFrame{
             this.setSize(1000, 750);
             this.setVisible(true);
             this.setLocation(((Toolkit.getDefaultToolkit().getScreenSize().width - 1000) / 2), 30);  
-           // this.add(new panelPrincipal());
+            this.add(new mainPanel());
         }    
 }

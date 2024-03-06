@@ -1,2 +1,3 @@
 scrapapp\ScrapAPP.class
 scrapapp\view\frameMain.class
+scrapapp\view\panels\mainPanel.class
