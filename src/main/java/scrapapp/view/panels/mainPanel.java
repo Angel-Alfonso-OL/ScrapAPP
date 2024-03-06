@@ -4,8 +4,11 @@ package scrapapp.view.panels;
 import java.awt.Color;
 import javax.swing.JPanel;
 import scrapapp.view.labels.labelDate;
+import scrapapp.view.labels.labelTime;
 
 public class mainPanel extends JPanel {
+    
+    private Thread hiloTime;
     
         public mainPanel(){
             this.initComponents();
@@ -15,6 +18,11 @@ public class mainPanel extends JPanel {
             this.setBackground(new Color(170, 161, 151));
             this.setLayout(null);
             this.add(new labelDate());
+            labelTime time = new labelTime();
+            this.add(time);
+            hiloTime = new Thread(time);
+            hiloTime.start();
+            
         }
     
 }

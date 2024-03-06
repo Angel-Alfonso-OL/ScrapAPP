@@ -9,9 +9,9 @@ import javax.swing.JLabel;
 
 public class labelDate extends JLabel{
     
-    final int DAY = LocalDate.now().getDayOfMonth();
-    final String MONTH = this.conversionMonth(LocalDate.now().getMonth().toString());
-    final int YEAR = LocalDate.now().getYear();
+    final private int DAY = LocalDate.now().getDayOfMonth();
+    final private String MONTH = this.conversionMonth(LocalDate.now().getMonth().toString());
+    final private int YEAR = LocalDate.now().getYear();
     
     public labelDate(){
         this.initComponents();
