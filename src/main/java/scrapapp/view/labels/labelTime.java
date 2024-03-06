@@ -18,7 +18,7 @@ public class labelTime extends JLabel implements Runnable{
         private void initComponets(){
             this.setFont(new Font("Arial Narrow", 1, 14));
             this.setForeground(new Color(0, 0, 0));
-            this.setBounds(875, 30, 80, 50);
+            this.setBounds(875, 38, 80, 25);
         }
 
     @Override

@@ -7,6 +7,7 @@ import scrapapp.view.labels.labelDate;
 import scrapapp.view.labels.labelNoEmpleado;
 import scrapapp.view.labels.labelNoOrden;
 import scrapapp.view.labels.labelTime;
+import scrapapp.view.textFields.textFieldNoEmpleado;
 
 public class mainPanel extends JPanel {
     
@@ -26,6 +27,7 @@ public class mainPanel extends JPanel {
             hiloTime.start();
             this.add(new labelNoEmpleado());
             this.add(new labelNoOrden());
+            this.add(new textFieldNoEmpleado());
             
         }
     

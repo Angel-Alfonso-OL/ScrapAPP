@@ -21,7 +21,7 @@ public class labelDate extends JLabel{
         this.setText(this.DAY + " de " + this.MONTH + " del " + this.YEAR);
         this.setFont(new Font("Arial Narrow", Font.ITALIC + Font.BOLD, 15));
         this.setForeground(new Color(0, 0, 0));
-        this.setBounds(830, 10, 130, 50);
+        this.setBounds(830, 20, 130, 25);
         
     }
     

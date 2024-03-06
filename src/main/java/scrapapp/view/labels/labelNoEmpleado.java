@@ -15,7 +15,7 @@ public class labelNoEmpleado extends JLabel {
      private void initComponets(){
             this.setFont(new Font("Arial Narrow", 1, 14));
             this.setForeground(new Color(0, 0, 0));
-            this.setBounds(50, 10, 100, 50);
+            this.setBounds(50, 20, 100, 25);
             this.setText("No. de Empelado:");
         }
     
