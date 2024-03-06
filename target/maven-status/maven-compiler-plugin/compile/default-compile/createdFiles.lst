@@ -1,5 +1,7 @@
-scrapapp\view\labels\labelTime.class
-scrapapp\ScrapAPP.class
+scrapapp\view\labels\labelNoEmpleado.class
 scrapapp\view\labels\labelDate.class
 scrapapp\view\frameMain.class
+scrapapp\view\labels\labelTime.class
+scrapapp\ScrapAPP.class
+scrapapp\view\labels\labelNoOrden.class
 scrapapp\view\panels\mainPanel.class

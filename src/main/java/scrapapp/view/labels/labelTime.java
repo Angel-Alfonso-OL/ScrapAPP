@@ -3,7 +3,6 @@ package scrapapp.view.labels;
 
 import java.awt.Color;
 import java.awt.Font;
-import static java.lang.Thread.sleep;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import javax.swing.JLabel;
@@ -13,13 +12,13 @@ import javax.swing.JLabel;
 public class labelTime extends JLabel implements Runnable{
    
         public labelTime(){
-           this.conf();
+           this.initComponets();
         }
     
-        private void conf(){
+        private void initComponets(){
             this.setFont(new Font("Arial Narrow", 1, 14));
             this.setForeground(new Color(0, 0, 0));
-            this.setBounds(830, 40, 80, 50);
+            this.setBounds(875, 30, 80, 50);
         }
 
     @Override
