@@ -1,5 +1,5 @@
 
-package view.labels;
+package scrapapp.view.labels;
 
 import java.awt.Color;
 import java.awt.Font;

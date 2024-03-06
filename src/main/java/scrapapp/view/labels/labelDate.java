@@ -1,21 +1,24 @@
 
-package view.labels;
+package scrapapp.view.labels;
 
 import java.awt.Color;
 import java.awt.Font;
 import java.time.LocalDate;
-import java.time.Month;
 import javax.swing.JLabel;
 
 
 public class labelDate extends JLabel{
     
+    final int DAY = LocalDate.now().getDayOfMonth();
+    final String MONTH = this.conversionMonth(LocalDate.now().getMonth().toString());
+    final int YEAR = LocalDate.now().getYear();
+    
     public labelDate(){
-        this.conf();
+        this.initComponents();
     }
     
-    private void conf(){
-        this.setText(LocalDate.now().getDayOfMonth() + " de " + this.conversionMonth(LocalDate.now().getMonth().toString()) + " del " + LocalDate.now().getYear());
+    private void initComponents(){
+        this.setText(this.DAY + " de " + this.MONTH + " del " + this.YEAR);
         this.setFont(new Font("Arial Narrow", Font.ITALIC + Font.BOLD, 15));
         this.setForeground(new Color(0, 0, 0));
         this.setBounds(830, 10, 130, 50);
