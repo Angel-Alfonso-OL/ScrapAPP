@@ -66,7 +66,4 @@ public class textFieldNoEmpleado extends JTextField implements KeyListener{
         }
         
     }
-
-
-    
 }
