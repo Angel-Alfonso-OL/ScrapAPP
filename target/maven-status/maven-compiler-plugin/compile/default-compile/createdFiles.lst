@@ -1,5 +1,6 @@
 scrapapp\view\labels\labelNoEmpleado.class
 scrapapp\view\labels\labelDate.class
+scrapapp\view\textFields\textFieldNoOrden.class
 scrapapp\view\textFields\textFieldNoEmpleado.class
 scrapapp\view\frameMain.class
 scrapapp\view\labels\labelTime.class
