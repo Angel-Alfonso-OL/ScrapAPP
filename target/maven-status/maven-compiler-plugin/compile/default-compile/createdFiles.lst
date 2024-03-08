@@ -1,4 +1,6 @@
 scrapapp\view\labels\labelNoEmpleado.class
+scrapapp\view\panels\panelList.class
+scrapapp\view\scrollPane\scrollPaneList.class
 scrapapp\view\labels\labelDate.class
 scrapapp\view\textFields\textFieldNoOrden.class
 scrapapp\view\textFields\textFieldNoEmpleado.class

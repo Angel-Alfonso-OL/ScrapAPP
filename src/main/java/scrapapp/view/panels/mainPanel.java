@@ -7,6 +7,7 @@ import scrapapp.view.labels.labelDate;
 import scrapapp.view.labels.labelNoEmpleado;
 import scrapapp.view.labels.labelNoOrden;
 import scrapapp.view.labels.labelTime;
+import scrapapp.view.scrollPane.scrollPaneList;
 import scrapapp.view.textFields.textFieldNoEmpleado;
 import scrapapp.view.textFields.textFieldNoOrden;
 
@@ -30,6 +31,8 @@ public class mainPanel extends JPanel {
             this.add(new labelNoOrden());
             this.add(new textFieldNoEmpleado());
             this.add(new textFieldNoOrden());
+            this.add(new scrollPaneList());
+         
             
         }
     
