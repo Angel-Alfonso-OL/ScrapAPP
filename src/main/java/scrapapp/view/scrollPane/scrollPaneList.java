@@ -15,7 +15,6 @@ public class scrollPaneList extends JScrollPane{
     }
     
     private void initComponent(){
-        //this.setBorder(new LineBorder(Color.BLACK,1));
         this.setBounds(50, 120, 900, 450);
         this.setBackground(Color.GRAY);
         this.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);

@@ -1,11 +1,14 @@
-scrapapp\view\labels\labelNoEmpleado.class
 scrapapp\view\panels\panelList.class
 scrapapp\view\scrollPane\scrollPaneList.class
 scrapapp\view\labels\labelDate.class
-scrapapp\view\textFields\textFieldNoOrden.class
 scrapapp\view\textFields\textFieldNoEmpleado.class
 scrapapp\view\frameMain.class
 scrapapp\view\labels\labelTime.class
+scrapapp\controller\textFieldNoOrdenController.class
 scrapapp\ScrapAPP.class
 scrapapp\view\labels\labelNoOrden.class
 scrapapp\view\panels\mainPanel.class
+scrapapp\view\labels\labelNoEmpleado.class
+scrapapp\view\textFields\textFieldNoOrden.class
+scrapapp\controller\textFieldNoEmpleadoController.class
+scrapapp\view\panels\panelCapturaScrap.class

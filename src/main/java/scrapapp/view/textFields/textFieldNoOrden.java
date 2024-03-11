@@ -7,9 +7,10 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
+import scrapapp.controller.textFieldNoOrdenController;
 
 
-public class textFieldNoOrden extends JTextField implements KeyListener{
+public class textFieldNoOrden extends JTextField {
     
     public boolean validado = true;
     
@@ -25,51 +26,7 @@ public class textFieldNoOrden extends JTextField implements KeyListener{
          this.setHorizontalAlignment(JTextField.CENTER);
          this.setBorder(new LineBorder(Color.BLACK,1));
          this.setText("NA");
-         this.addKeyListener(this);   
+         this.addKeyListener(new textFieldNoOrdenController(this));   
     }
-    
-     private boolean validarFormato(String texto){
-        
-        if(texto == null)return false;
-        if(texto.equals("NA")) return true;
-        if(texto.length() != 5)return false;
-        
-        for(int i = 0; i < texto.length(); i++){
-            if(!(this.validarCaracterNumerico(texto.charAt(i)))) return false;
-        }
-        
-        return true;
-    }
-    
-    private boolean validarCaracterNumerico(char valor){
-        
-        final char[] NUMEROS = {'0','1','2','3','4','5','6','7','8','9'};
-        
-        for(int i = 0; i < NUMEROS.length; i++) if(valor == NUMEROS[i]) return true;
-        
-        return false;
-    }
-
-    @Override
-    public void keyTyped(KeyEvent e) {}
-
-    @Override
-    public void keyPressed(KeyEvent e) {}
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-        
-        if(!(this.validarFormato(this.getText()))){
-            this.setBackground(new Color(255,104,0));
-            this.validado = false;
-        }else{
-            this.validado = true;
-            this.setBackground(Color.WHITE);
-        }
-        
-    }
-    
-    
-    
     
 }

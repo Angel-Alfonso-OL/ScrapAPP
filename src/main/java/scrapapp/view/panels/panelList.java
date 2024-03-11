@@ -4,19 +4,22 @@ package scrapapp.view.panels;
 import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JPanel;
+import javax.swing.border.LineBorder;
 
 
 public class panelList extends JPanel {
     
     public panelList(){
+        this.setLayout(null);
         this.initComponents();
-        this.setPreferredSize(new Dimension(900,800));
         
     }
     
     private void initComponents(){
-        
-        this.setBackground(Color.GRAY);
+         this.setPreferredSize(new Dimension(900,450));
+         this.setBackground(Color.GRAY);
+         this.add(new panelCapturaScrap());
+         
         
     }
     
