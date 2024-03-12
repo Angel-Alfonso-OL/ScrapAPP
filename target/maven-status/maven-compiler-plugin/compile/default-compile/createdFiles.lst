@@ -1,9 +1,13 @@
 scrapapp\view\panels\panelList.class
+scrapapp\view\textFields\textFieldLocalidad.class
 scrapapp\view\scrollPane\scrollPaneList.class
 scrapapp\view\labels\labelDate.class
 scrapapp\view\textFields\textFieldNoEmpleado.class
 scrapapp\view\frameMain.class
 scrapapp\view\labels\labelTime.class
+scrapapp\view\textFields\textFieldMotivo.class
+scrapapp\view\textFields\textFieldCostoUnitario.class
+scrapapp\controller\textFieldCantidadController.class
 scrapapp\controller\textFieldNoOrdenController.class
 scrapapp\ScrapAPP.class
 scrapapp\view\panels\mainPanel.class
@@ -12,4 +16,5 @@ scrapapp\view\textFields\textFieldNoOrden.class
 scrapapp\view\textFields\textFieldUnidadMedida.class
 scrapapp\controller\textFieldNoEmpleadoController.class
 scrapapp\view\panels\panelCapturaScrap.class
+scrapapp\view\textFields\textFieldCantidad.class
 scrapapp\view\labels\labelGenerico.class

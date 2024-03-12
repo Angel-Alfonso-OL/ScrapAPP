@@ -25,7 +25,7 @@ public class labelGenerico extends JLabel{
     }
     
     private void initComponents(){
-        this.setFont(new Font("Arial Narrow", 1, 14));
+        this.setFont(new Font("Arial Narrow", 1, 12));
         this.setForeground(new Color(0, 0, 0));
         this.setBounds(X, Y, WIDTH, 23);
         this.setText(NOMBRE);
