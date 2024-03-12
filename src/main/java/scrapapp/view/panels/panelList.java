@@ -4,7 +4,7 @@ package scrapapp.view.panels;
 import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JPanel;
-import javax.swing.border.LineBorder;
+
 
 
 public class panelList extends JPanel {
